@@ -1,0 +1,22 @@
+# Official Streamlit theme — docs.streamlit.io/develop/concepts/configuration/theming
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#FF4B4B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#31333F"
+font = "sans serif"
+baseRadius = "0.5rem"
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+primaryColor = "#FF4B4B"
